@@ -1,0 +1,32 @@
+.task{
+    display:flex;
+    padding:6px 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:95%;
+    /* min-width: min-content; */
+    border:1px solid #333;
+}
+.taskText{
+    padding : 0px 20px;
+    max-width: 70%;
+    width: 70%;
+    /* width:100%; */
+    overflow-wrap: break-word;
+}
+@media only screen and (max-width:800px){
+.task{
+        width: 100%;
+        /* display:none; */
+}
+.taskText{
+    width:70px;
+    max-width: 70px;
+    /* display: none; */
+    border:none;
+}
+}

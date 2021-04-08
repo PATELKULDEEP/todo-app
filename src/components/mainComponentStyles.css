@@ -1,0 +1,45 @@
+#standard-textarea {
+  color: white;
+}
+
+body {
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+.home-page {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.homepage-container {
+  background: radial-gradient(ellipse at top, #0098f1, #0098f1);
+  padding: 10px;
+  text-align: center;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.homepage-container h1 {
+  margin: 15px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.homepage-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+.homepage-header button {
+  background-color: #3f51b58e;
+  margin: 15px;
+  color: white;
+}
+.homepage-header button:hover {
+  background-color: #3f51b5;
+}
